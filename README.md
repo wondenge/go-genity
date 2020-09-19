@@ -26,6 +26,8 @@ At this time, you have a RESTful API server running at `http://127.0.0.1:5000`. 
 - `PUT /v1/genitys/:id`: updates an existing genity
 - `DELETE /v1/genitys/:id`: deletes an genity
 
+Example `http://127.0.0.1:5000/v1/genitys/e0bb80ec-75a6-4348-bfc3-6ac1e89b195e`
+
 Try the URL `http://localhost:5000/healthcheck` in a browser, and you should see something like `"OK v1.0.0"` displayed.
 
 If you have `cURL` or some API client tools (e.g. [Postman](https://www.getpostman.com/)), you may try the following
